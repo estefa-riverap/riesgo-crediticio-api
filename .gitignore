@@ -1,0 +1,12 @@
+# Ambiente y cachés
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Datos crudos: se descargan con kagglehub, no se versionan
+data/
+
+# Configuración local y secretos
+.env
